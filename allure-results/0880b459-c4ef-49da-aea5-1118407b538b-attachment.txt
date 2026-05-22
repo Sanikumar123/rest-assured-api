@@ -1,0 +1,15 @@
+{
+    "data": {
+        "_id": "69c92f18f86ba51a6533e98a",
+        "orderById": "65fe661da86f8f74dca8f930",
+        "orderBy": "sanimondal7@gmail.com",
+        "productOrderedId": "69c90e22f86ba51a653390c6",
+        "productName": "qwerty",
+        "country": "India",
+        "productDescription": "Addias Originals",
+        "productImage": "https://rahulshettyacademy.com/api/ecom/uploads/productImage_1774784033181.jpg",
+        "orderPrice": "11500",
+        "__v": 0
+    },
+    "message": "Orders fetched for customer Successfully"
+}
