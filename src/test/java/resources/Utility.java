@@ -43,7 +43,8 @@ public class Utility {
 	public String getGlobalValue(String key) throws IOException
 	{
 		Properties prop = new Properties();
-		FileInputStream fin = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\resources\\Global.properties");
+		String filePath = System.getProperty("user.dir") + File.separator + "src" + File.separator + "test" + File.separator + "java" + File.separator + "resources" + File.separator + "Global.properties";
+		FileInputStream fin = new FileInputStream(filePath);
 		prop.load(fin);
 		return prop.getProperty(key);
 	}

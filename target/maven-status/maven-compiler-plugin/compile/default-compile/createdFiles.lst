@@ -1,0 +1,8 @@
+pojo/LoginRequest.class
+pojo/LoginResponse.class
+pojo/AddOrderResponse.class
+pojo/OrderRequest.class
+pojo/OrdersRequest.class
+pojo/AddProductResponse.class
+pojo/Data.class
+pojo/ViewOrdersResponse.class
