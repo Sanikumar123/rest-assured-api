@@ -1,15 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: cucumber.Options.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.012 s <<< FAILURE! -- in cucumber.Options.TestRunner
-Ecom app API validation.Ecom app view order validations -- Time elapsed: 3.205 s <<< ERROR!
-java.io.FileNotFoundException: /app\src\test\java\resources\Global.properties (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
-	at resources.Utility.getGlobalValue(Utility.java:46)
-	at resources.Utility.getRequestSpecification(Utility.java:27)
-	at stepdefinitions.ecomstep.user_has_payload_with_and(ecomstep.java:52)
-	at ✽.user has "LOGINAPI" payload with "sanimondal7@gmail.com" and "Dexter@456"(file:///app/src/test/java/features/ecom.feature:39)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.99 s -- in cucumber.Options.TestRunner

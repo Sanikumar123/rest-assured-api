@@ -1,0 +1,5 @@
+services:
+  javaapi:
+    image: sunny27031993/restapi
+    volumes:
+      - C:/Users/sanim/Microservice/RestAssured_API:/app

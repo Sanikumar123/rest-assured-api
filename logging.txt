@@ -1,0 +1,90 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "sanimondal7@gmail.com",
+    "userPassword": "Dexter@456"
+}
+HTTP/1.1 200 OK
+Date: Sun, 24 May 2026 12:11:27 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 360
+ETag: W/"168-rSpeLcXdq/Ofao37XAaYvDCOisg"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWZlNjYxZGE4NmY4Zjc0ZGNhOGY5MzAiLCJ1c2VyRW1haWwiOiJzYW5pbW9uZGFsN0BnbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjo1NjU2Nzg0NTY1LCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzc5NjI0Njg3LCJleHAiOjE4MTExODIyODd9.-MoXGE2T0Y3bAUb3--QutjFVz-DqLV78weoq4DDAUoY",
+    "userId": "65fe661da86f8f74dca8f930",
+    "message": "Login Successfully"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/get-orders-details?id=69c92f18f86ba51a6533e98a
+Proxy:			<none>
+Request params:	<none>
+Query params:	id=69c92f18f86ba51a6533e98a
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWZlNjYxZGE4NmY4Zjc0ZGNhOGY5MzAiLCJ1c2VyRW1haWwiOiJzYW5pbW9uZGFsN0BnbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjo1NjU2Nzg0NTY1LCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzc5NjI0Njg3LCJleHAiOjE4MTExODIyODd9.-MoXGE2T0Y3bAUb3--QutjFVz-DqLV78weoq4DDAUoY
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 24 May 2026 12:11:32 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 421
+ETag: W/"1a5-hZgBiVdLCb57CqSnvFoPFz3fi2Y"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "data": {
+        "_id": "69c92f18f86ba51a6533e98a",
+        "orderById": "65fe661da86f8f74dca8f930",
+        "orderBy": "sanimondal7@gmail.com",
+        "productOrderedId": "69c90e22f86ba51a653390c6",
+        "productName": "qwerty",
+        "country": "India",
+        "productDescription": "Addias Originals",
+        "productImage": "https://rahulshettyacademy.com/api/ecom/uploads/productImage_1774784033181.jpg",
+        "orderPrice": "11500",
+        "__v": 0
+    },
+    "message": "Orders fetched for customer Successfully"
+}
